@@ -1,0 +1,18 @@
+{
+  "name": "irc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "irc": "^0.5.2",
+    "irc-server": "0.0.4",
+    "slate-irc": "^0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Titan",
+  "license": "ISC"
+}
