@@ -23,8 +23,8 @@ echo Step9 : git clone https://github.com/TitanLi/Hankathon-Kit.git
 git clone https://github.com/TitanLi/Hankathon-Kit.git
 echo Step10 : Create .env file
 echo "IRC_SERVER = '127.0.0.1'" > .env
-echo Step11 : Copy BruneiHackaton.png
-cp Hankathon-Kit/logo/BruneiHackaton.png logo/BruneiHackaton.png
+echo Step11 : Copy BruneiHackaton.jpg
+cp Hankathon-Kit/logo/BruneiHackaton.jpg logo/BruneiHackaton.jpg
 echo Step12 : Copy app.js
 cp Hankathon-Kit/app.js app.js
 echo Step13 : Copy App.qml
