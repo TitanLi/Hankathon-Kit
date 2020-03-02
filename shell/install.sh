@@ -11,7 +11,7 @@ echo Step5 : Install NodeJS version 6
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 source ~/.bashrc
 nvm install 6
-nvm alias default
+nvm alias default 6
 echo Step6 : Install QT5
 brew install qt5
 echo Step7 : git clone https://github.com/HanGee/Hankathon.git
