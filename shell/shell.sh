@@ -4,7 +4,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | b
 source ~/.bashrc
 nvm install 6
 nvm alias default
-echo Step2 : QT5
+echo Step2 : Install QT5
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
 brew install qt5
 echo Step3 : git clone https://github.com/HanGee/Hankathon.git
