@@ -16,7 +16,7 @@ Item {
 		asynchronous: true;
 		cache: true;
 		mipmap: true;
-		source: 'logo/BruneiHackaton.png'
+		source: 'logo/BruneiHackaton.jpg'
 
 		layer.enabled: true;
 		layer.effect: Glow {
