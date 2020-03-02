@@ -2,9 +2,9 @@
 echo Step1 : Change directory ~/Desktop
 cd ~/Desktop
 echo Step2 : Install curl
-brew install curl -y
+brew install curl
 echo Step3 : Install vim
-brew install vim -y
+brew install vim
 echo Step4 : Install NodeJS version 6
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 source ~/.bashrc
