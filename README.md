@@ -4,8 +4,20 @@ OS : MacOS
 Source : [https://github.com/HanGee/Hankathon](https://github.com/HanGee/Hankathon)
 
 NodeJS version : v6
+## Step 1 : Install NodeJS on Mac OSX
+1. Install NVM
+```shell
+$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 
-## Step 1 : Install qt5 on Mac OSX
+$ source ~/.bashrc
+```
+2. Install NodeJS & NPM
+```shell
+$ nvm install 6
+$ nvm alias default
+```
+
+## Step 2 : Install qt5 on Mac OSX
 Source: http://macappstore.org/qt5/
 1. Press Command+Space and type Terminal and press enter/return key.
 2. Run in Terminal app:
@@ -18,7 +30,7 @@ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/maste
 ```shell
 $ brew install qt5
 ```
-## Step 2 : Installation
+## Step 3 : Installation
 1. Download Hankathon Source Code
 ```shell
 $ git clone https://github.com/HanGee/Hankathon.git
@@ -40,7 +52,14 @@ $ git submodule update
 ```shell
 $ npm install
 ```
-6. Run Server
+
+## Step 4 : Run Server
 ```shell
 $ node app.js
 ```
+
+Keyboard Shortcuts
+
+> This lists keyboard shortcuts that you can use on Hankathon:
+* `G` - Start Hankathon
+* `F` - Enter/Exit Fullscreen mode
