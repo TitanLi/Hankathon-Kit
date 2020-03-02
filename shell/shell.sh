@@ -34,4 +34,5 @@ echo Step14 : TimerPanel.qml
 cp Hankathon-Kit/TimerPanel.qml TimerPanel.qml
 echo Step15 : Install library
 npm install
-echo Step16 : Run Dashboard
+echo Step16 : Current working directory
+pwd
