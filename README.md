@@ -63,3 +63,8 @@ Keyboard Shortcuts
 > This lists keyboard shortcuts that you can use on Hankathon:
 * `G` - Start Hankathon
 * `F` - Enter/Exit Fullscreen mode
+
+## Shell Script
+```shell
+$ source shell/install.sh
+```
