@@ -2,6 +2,7 @@
 echo Step1 : Change directory ~/Desktop
 cd ~/Desktop
 echo Step2 : Install curl
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
 brew install curl
 echo Step3 : Install vim
 brew install vim
@@ -11,7 +12,6 @@ source ~/.bashrc
 nvm install 6
 nvm alias default
 echo Step5 : Install QT5
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
 brew install qt5
 echo Step6 : git clone https://github.com/HanGee/Hankathon.git
 git clone https://github.com/HanGee/Hankathon.git
